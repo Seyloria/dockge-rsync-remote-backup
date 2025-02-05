@@ -1,6 +1,6 @@
-# dockge rsync remote backup
+# [dockge](https://github.com/louislam/dockge "dockge") rsync remote backup
 
-##### A small backup script written in bash to automatically backup your dockge files & container volumes. It stops dockge and all docker containers, then uses tar to compress the files into a single archive while preserving file ownership and permission rights. It then copies the file via rsync to your remote host backup location and starts dockge and all containers again.
+##### A small backup script written in bash to automatically backup your [dockge](https://github.com/louislam/dockge "dockge") files & container volumes. It stops dockge and all docker containers, then uses tar to compress the files into a single archive while preserving file ownership and permission rights. It then copies the file via rsync to your remote host backup location and starts dockge and all containers again.
 
 
 ## Installation
