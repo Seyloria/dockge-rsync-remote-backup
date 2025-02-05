@@ -8,7 +8,7 @@
 Just download the dockge_backup.sh and make it executable 
 
 ```sh
-curl -O  https://raw.githubusercontent.com/Seyloria/dockge-rsync-remote-backup/main/dockge_backup.sh
+curl -O https://raw.githubusercontent.com/Seyloria/dockge-rsync-remote-backup/main/dockge_backup.sh && \
 chmod +x dockge_backup.sh
 ```
 
