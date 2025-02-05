@@ -8,7 +8,7 @@
 Just download the dockge_backup.sh and make it executable 
 
 ```sh
-curl -O  https://raw.githubusercontent.com/Seyloria/dockge-rsync-remote-backup/main/hide.me-sw.sh
+curl -O  https://raw.githubusercontent.com/Seyloria/dockge-rsync-remote-backup/main/dockge_backup.sh
 chmod +x dockge_backup.sh
 ```
 
@@ -33,6 +33,11 @@ REMOTE_HOST_USER="root" # ssh user
 REMOTE_HOST_ADR="11.22.33.44" # ssh backup server location address
 REMOTE_HOST_DIR="/mnt/user/backup/servername/dockge/" # remote server backup path
 ```
+##### Run the script with
+```sh
+./dockge_backup.sh
+```
+
 If you need your backup and want to restore your files from an archive, make sure you preserve the ownership and permissions of the files after you've extracted them. You can do this by running tar as root, or by setting the **--same-owner** and **--preserve-permissions** flags when extracting.
 
 
